@@ -66,6 +66,8 @@ export default function MovieGrid() {
         placeholder="Search movies..."
         onChange={handleSearchInput}
         value={searchTerm}
+        name="search"
+        id="search-input"
       />
 
     <div className="filter-bar">
